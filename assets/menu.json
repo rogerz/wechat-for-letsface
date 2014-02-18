@@ -1,19 +1,29 @@
 {
   "button": [
     {
-      "type": "click",
-      "name": "Products",
-      "key": "PRODUCTS"
+      "type": "view",
+      "name": "Home",
+      "url": "http://www.letsface.com"
     },
     {
-      "type": "click",
-      "name": "Contact us",
-      "key": "CONTACT"
-    },
-    {
-      "type": "click",
-      "name": "About",
-      "key": "ABOUT"
+      "name": "Introduction",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "Products",
+          "key": "PRODUCTS"
+        },
+        {
+          "type": "click",
+          "name": "Contact us",
+          "key": "CONTACT"
+        },
+        {
+          "type": "click",
+          "name": "About",
+          "key": "ABOUT"
+        }
+      ]
     },
     {
       "name": "Debug",
