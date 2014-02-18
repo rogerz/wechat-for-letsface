@@ -1,0 +1,29 @@
+{
+  "button": [
+    {
+      "type": "click",
+      "name": "Products",
+      "key": "PRODUCTS"
+    },
+    {
+      "type": "click",
+      "name": "Contact us",
+      "key": "CONTACT"
+    },
+    {
+      "type": "click",
+      "name": "About",
+      "key": "ABOUT"
+    },
+    {
+      "name": "Debug",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "Who am I",
+          "key": "WHO_AM_I"
+        }
+      ]
+    }
+  ]
+}

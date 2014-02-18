@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Our Products",
+    "description": "YOU NEVER GET A SECOND CHANCE TO MAKE A FIRST IMPRESSION.",
+    "picurl": "images/logo.png",
+    "url": "http://www.letsface.com/#products"
+  },
+  {
+    "title": "Management platform",
+    "description": "Full event registration, guest communication and post-event analytic solution. All our products are managed from this platform and all data acquired flows back into the Event Management System.",
+    "picurl": "images/logo.png"
+  },
+  {
+    "title": "Engagement products",
+    "description": "Real-Time, fun visualization of guests’ attendance, contribution and their likes on any digital media – Mobile Phone, Tablets, Interactive Touch Screens, Projections, LED and 3D mapping.",
+    "picurl": "images/logo.png"
+  },
+  {
+    "title": "Social apps",
+    "description": "Connecting people together and facilitating brands to communicate with their guests. Our solutions interface with all social media platforms.",
+    "picurl": "images/logo.png"
+  }
+]
