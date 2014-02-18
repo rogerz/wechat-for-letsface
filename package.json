@@ -10,13 +10,18 @@
     "type": "git",
     "url": "https://github.com/rogerz/wechat-for-letsface"
   },
-  "keywords": ["wechat letsface"],
+  "keywords": [
+    "wechat letsface"
+  ],
   "author": "Rogerz Zhang <rogerz.zhang@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/rogerz/wechat-for-letsface/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "wechat": "~0.6.6",
+    "connect": "~2.13.0"
+  },
   "devDependencies": {
     "chai": "~1.8.1",
     "grunt-contrib-jshint": "~0.6.4",
