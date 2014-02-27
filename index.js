@@ -25,40 +25,7 @@ app.use(connect.logger('dev'))
 .video(oops)
 .location(oops)
 .link(oops)
-.event(function eventHandler(msg, req, res, next) {
-  var replyOops = function () {
-    return oops(msg, req, res, next);
-  };
-
-  if (msg.Event === 'CLICK') {
-    var key = msg.EventKey;
-    var json;
-
-    if (key === 'WHO_AM_I') {
-      api.getUser(msg.FromUserName, function getUserCb(err, result) {
-        if (err) {
-          return replyOops();
-        } else {
-          return res.reply({
-            "title": result.nickname,
-            "description": util.format('%s,%s,%s',
-                                       result.country,
-                                       result.province,
-                                       result.city
-                                      ),
-            'picurl': result.headimgurl
-          });
-        }
-      });
-    }
-
-    try {
-      return res.reply(require('.' + config.assets + '/messages/' + key.toLowerCase()));
-    } catch(e) {
-      return replyOops();
-    }
-  }
-})
+.event(require('./lib/handlers/event'))
 .middlewarify()
 
 );
